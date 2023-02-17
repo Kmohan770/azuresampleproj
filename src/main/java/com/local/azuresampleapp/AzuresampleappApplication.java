@@ -13,7 +13,7 @@ public class AzuresampleappApplication {
         SpringApplication.run(AzuresampleappApplication.class, args);
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/")
     public String display(){
         
         return "Hello User!!!!";

@@ -15,6 +15,7 @@ public class AzuresampleappApplication {
 
     @GetMapping("/hello")
     public String display(){
+        
         return "Hello User!!!!";
     }
 }
